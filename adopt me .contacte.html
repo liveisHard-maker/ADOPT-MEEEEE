@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adopt me.contact.css">
+    <title>Adopt me!</title>
+</head>
+<body>
+    <!-- navigation bar -->
+     <div class="backnav">
+        <nav id="navbar">
+            <div class="navigatorbar">
+                <div class="content">
+<!-----------------------------------------logo------------------------------------------------>
+                    <a id="logo" href="Adopt me!-0.03.html">
+                    </a>
+<!------------------------------------navigation tool------------------------------------------>
+                    <div class="navbars">
+                        <ul class="navigatorofnav">
+                            <li>
+                                <div class="nav-button" id="Animal">
+                                    <button class="navbutton">
+                                        <a href="animal">
+                                            <span>ANIMAL</span>
+                                        </a>
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="nav-button" id="Source">
+                                    <button class="navbutton">
+                                        <a href="source">
+                                            <span>SOURCE</span>
+                                        </a>
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="nav-button" id="volontaria">
+                                    <button class="navbutton">
+                                        <a href="volontaria">
+                                            <span>VOLONTARIA</span>
+                                        </a>
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="nav-button" id="contact">
+                                    <button class="navbutton">
+                                        <a href="contact">
+                                            <span>CONTACT</span>
+                                        </a>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+     </div>
+<!-----------------------------------------------main page-------------------------------------->
+<div class="page">
+ <div class = "contacte">
+    <h1>Contacter-nous</h1>
+    <p class="petitdescripitifili">Question que vous désirez nous posés sur l'adoption, le volontaria où autre? n'hésiter pas.</p>
+    <!--------le document de form------->
+    <form action="/adopt me .contacte.html" method="post" class="contact_form">
+        <div class="group_form">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <label for="prénom">Prénom</label>
+            <input type="text" id="prénom" name="prénom" required>
+        </div>
+
+
+        <div class="group_form">
+            <label for="email">address e-mail</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+
+         <div class="group_form">
+            <label for="telephone">Numéro de téléphone</label>
+            <input type="tel" id="telephone" name="telephone" required>
+        </div>
+
+
+        <div class="group_form">
+            <label for="sujet"> sujet de votre demande</label>
+            <select name="sujet" id="sujet">
+                <option value="adoption">Adoption</option>
+                <option value="volontariat">Devenir volontaire</option>
+                <option value="don">soutenir ou faire un don</option>
+                <option value="animaux">donner un animal</option>
+                <option value="medecine">santé/allergie</option>
+                <option value="autre">autre raisont</option>
+            </select>
+        </div>
+
+
+        <div class="group_form">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10" placeholder="tapez votre message" required></textarea>
+        </div>
+
+        <button type="submit" class="submisiv_bottom">Envoyer</button>
+    </form>
+
+    <!--le bas avec le telephone et autre info d contactement puisque il en faut sauf si d'autre la d'éjat fait alors ça peut être suprimer-->
+
+    <div class="info_contact">
+        <p><strong>Email : </strong> AdoptME@hotmail.be</p>
+        <p><strong>Téléphone : </strong> 02 423/88.69</p>
+    </div>
+ </div>
+</div>
+</body>
+</html>

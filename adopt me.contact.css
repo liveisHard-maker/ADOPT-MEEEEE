@@ -1,0 +1,141 @@
+html{
+    display: block;
+}
+
+
+
+body{
+    background-color: #F2D0A9;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.backnav{
+    background-color: #D88C9A;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.navigatorbar{
+max-width: 1200px;
+margin: 0 auto;
+width: 100%;
+padding: 10px 20px;
+}
+
+
+
+.navigatorofnav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.navbutton{
+    border: solid 2px #8E7DBE;
+    border-radius: 15px;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+/*pour enlever les liste et les trasformer en header normaux*/
+.nav-button a{
+    text-decoration: none;
+    color: #925e5e;
+    font-weight: bold;
+}
+
+
+
+li{
+    display: block;
+}
+
+/*---page de contacte faut préciser---*/
+
+
+.page{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+.contacte{
+    background-color:#D88C9A;
+    border: 5px solid #8E7DBE;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 5px 10px rgba(145, 95, 95, 0.15 );
+}
+
+.contacte h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.petitdescripitifili{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.group_form{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group_form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.group_form input, .group_form select, .group_form textarea{
+    padding: 10px;
+    border: 2.5px solid #8E7DBE;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.group_form input:focus,.group_form select:focus, .group_form textarea:focus{
+    outline: none;
+}
+
+.submisiv_bottom{
+    width: 100%;
+    padding: 10px;
+    background-color:#925e5e;
+    color: white;
+    border: 2.5px solid #8E7DBE;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info_contact{
+    margin-top: 25px ;
+    padding-top: 15px;
+    border-top: 2.5px solid  #8E7DBE;
+    font-size: 15px;
+    text-align: center;
+}
+.info_contact p{
+    margin: 10px;
+}
